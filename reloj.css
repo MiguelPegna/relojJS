@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://fondosmil.com/fondo/456.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-size: 16px;
+}
+.wrap{
+    width: 100%;
+    max-width: 1080px;
+    margin:auto;
+}
+.widget{
+    width: 39%;
+    margin: 2em;
+}
+.widget p{
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.3125em;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    width:100%;
+}
+
+.reloj{
+    width:100%;
+    text-align: center;
+    font-size: 5em;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+}
+
+.reloj .box-segundos{
+    display:inline-block;
+}
+
+.reloj .segundos, .reloj .am_pm{
+    font-size:2rem;
+    display:block;
+}
